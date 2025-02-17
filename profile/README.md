@@ -33,9 +33,9 @@ flowchart LR
     BlackBox --> I
     BlackBox --> J
 
-    style BlackBox fill:#000000,color:#ffffff,padding:80px,stroke:#ffffff,stroke-width:2px,border-radius:10px
-    style Inputs fill:#e6f3ff,color:#000000,padding:40px,stroke:#4a90e2,stroke-width:2px,border-radius:10px
-    style Outputs fill:#e6ffe6,color:#000000,padding:40px,stroke:#2ecc71,stroke-width:2px,border-radius:10px
+    style BlackBox fill:#000000,color:#ffffff,padding:40px,stroke:#ffffff,stroke-width:2px
+    style Inputs fill:#1a365d,color:#ffffff,padding:40px,stroke:#4a90e2,stroke-width:2px
+    style Outputs fill:#1b4332,color:#ffffff,padding:40px,stroke:#2ecc71,stroke-width:2px
 ```
 
 ## 🤝 Work With Us
