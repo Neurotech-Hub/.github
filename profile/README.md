@@ -35,7 +35,7 @@ flowchart LR
     G --> I
     G --> J
 
-style "Neurotech Hub" fill:#000,color:#fff
+    style Neurotech Hub fill:#000000,color:#ffffff
 ```
 
 ## 🤝 Work With Us
