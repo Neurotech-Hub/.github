@@ -11,7 +11,8 @@ flowchart LR
         D[Specifications]
     end
     
-    subgraph "Neurotech Hub" [Neurotech Hub Black Box]
+    subgraph BlackBox[Neurotech Hub]
+        direction TB
         E[Unstick]
         F[Accelerate]
         G[Innovate]
@@ -23,19 +24,16 @@ flowchart LR
         J[Prototypes]
     end
     
-    A --> E
-    B --> E
-    C --> E
-    D --> E
+    A --> BlackBox
+    B --> BlackBox
+    C --> BlackBox
+    D --> BlackBox
     
-    E --> F
-    F --> G
-    
-    G --> H
-    G --> I
-    G --> J
+    BlackBox --> H
+    BlackBox --> I
+    BlackBox --> J
 
-    style Neurotech Hub fill:#000000,color:#ffffff
+    style BlackBox fill:#000000,color:#ffffff
 ```
 
 ## 🤝 Work With Us
@@ -53,6 +51,6 @@ Department of Neuroscience
 St. Louis, MO 63110
 
 ## 🔗 Links
-- [Website](https://neurotechhub.wustl.edu/)
+- [Neurotech HubWebsite](https://neurotechhub.wustl.edu/)
 - [Submit a Project](https://neurotechhub.wustl.edu/contact/submit-a-project)
 - [Request Training](https://neurotechhub.wustl.edu/contact/request-training)
