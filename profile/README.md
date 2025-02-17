@@ -4,33 +4,21 @@ The Neurotech Hub at Washington University in St. Louis accelerates progress in 
 
 ```mermaid
 flowchart LR
-    subgraph Inputs[" 
-
-    Inputs
-
-    "]
+    subgraph Inputs
         A([Ideas])
         B([Concepts])
         C([Constraints])
         D([Specifications])
     end
     
-    subgraph BlackBox[" 
-
-    Neurotech Hub
-
-    "]
+    subgraph BlackBox[Neurotech Hub]
         direction TB
         E([Unstick])
         F([Accelerate])
         G([Innovate])
     end
     
-    subgraph Outputs[" 
-
-    Outputs
-
-    "]
+    subgraph Outputs
         H([Products])
         I([Solutions])
         J([Prototypes])
